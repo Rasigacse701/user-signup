@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserSingup</title> <!---#5ea2d7 #f3e767;--->
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .signup{
+
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#5ea2d7;
+        }
+
+        .header{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            height:600px;
+            background-color:yellow;
+        }
+
+
+        form p{
+
+            font-size: 3em;
+            text-align: center;
+        }
+
+        form  input{
+
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            width: 500px;
+        }
+
+
+        
+
+
+        /*-----responsive device-----*/
+
+        @media screen and (max-width:800px){
+
+            .signup{
+
+                width: 100%;
+            }
+
+            .header{
+
+                width: 300px;
+            }
+
+            form input{
+
+                width: 100%;
+                padding: 20px;
+                
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+
+
+   <section class="signup">
+
+    <div class="header">
+
+        <form>
+
+            <p>User Signup</p>
+       
+                <label for="username">Username</label><br>
+                <input type="text" id="username"><br>
+
+        
+                <label for="useremail">Email</label><br>
+                <input type="email" id="useremail"><br>
+
+          
+                <label for="userpasssword">Password</label><br>
+                <input type="password" id="userpasssword"><br>
+            
+
+    </div>
+
+    </div>
+   </section>
+
+
+
+    
+</body>
+</html>
